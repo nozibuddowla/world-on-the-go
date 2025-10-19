@@ -1,0 +1,33 @@
+/* Countries.css - responsive grid container */
+.countries {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* desktop */
+    gap: 20px;
+    align-items: start;
+}
+
+/* large tablets / small desktops */
+@media (max-width: 1200px) {
+    .countries {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* tablets */
+@media (max-width: 900px) {
+    .countries {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* phones */
+@media (max-width: 520px) {
+    .countries {
+        grid-template-columns: 1fr;
+        padding: 12px;
+        gap: 14px;
+    }
+}
