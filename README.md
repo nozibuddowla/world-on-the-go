@@ -1,16 +1,35 @@
-# React + Vite
+# 🌍 World On The Go
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**World On The Go** is a React-based web application that displays data for countries fetched from a public API. It allows users to explore country information, mark countries as visited, and collect their flags visually.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ How to Run Locally
 
-## React Compiler
+1. Clone this repository:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+   ```bash
+   git clone https://github.com/nozibuddowla/world-on-the-go.git
+   ```
+2. Navigate into the project folder:
 
-## Expanding the ESLint configuration
+   ```bash
+   cd world-on-the-go
+   ```
+3. Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 📸 Preview
+
+* [Live link](http://world-on-the-go.surge.sh/)
