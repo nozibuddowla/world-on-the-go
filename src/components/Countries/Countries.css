@@ -31,3 +31,9 @@
         gap: 14px;
     }
 }
+
+.flag {
+    aspect-ratio: 16 / 10; 
+    border-radius: 12px;
+    margin-right: 10px;
+}
